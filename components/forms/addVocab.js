@@ -22,7 +22,7 @@ const addVocabForm = (obj = {}) => {
           <option value="Tech" ${obj.category === 'Tech' ? 'selected' : ''}>Tech</option>
         </select>
       </div>
-        <button type="submit" class="btn btn-primary">Submit Vocab
+        <button type="submit" class="btn btn-primary">Submit Word
         </button>
       </form>`;
 
