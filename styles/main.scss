@@ -9,17 +9,32 @@ body {
   margin-top: 150px;
 }
 .navbar-dark .navbar-brand {
-  font-family: "Arial", !important;
+  font-family: 'Courier New', Courier, monospace;
   color: white;
   font-weight: 400;
   font-size: 2em;
 }
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+#search {
+  padding-left: auto;
+}
+
+#javascript-list {
+  padding-right: 15px;
+}
+
 #main-container {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   margin-top: 100px;
   align-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
 
   #add-button {
     margin: 0 auto;
@@ -44,15 +59,11 @@ body {
     text-align: center;
     margin: auto;
     justify-content: center;
+    color: white;
 
     .card {
       width: 300px;
       margin: 5px;
-
-      .sale-badge {
-        font-size: 1em;
-        background-color: blue;
-      }
     }
 
     .table {
@@ -60,5 +71,25 @@ body {
       width: 80%;
       margin: 0 auto;
     }
+  }
+}
+
+#logo {
+width: 50px;
+padding: 2px;
+}
+
+#view {
+  width: 90%;
+  margin: auto;
+  color: black;
+
+  .details {
+    min-width: 50%;
+    max-width: 60%;
+  }
+
+  .text {
+    white-space: pre-wrap;
   }
 }
