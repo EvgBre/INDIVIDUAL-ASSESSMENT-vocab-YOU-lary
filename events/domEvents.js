@@ -19,7 +19,7 @@ const domEvents = (user) => {
     }
     if (e.target.id.includes('edit-vocab-btn')) {
       const [, firebaseKey] = e.target.id.split('--');
-      getSingleVocab(firebaseKey).then((bookObj) => addVocabForm(user.uid, bookObj));
+      getSingleVocab(firebaseKey).then((obj) => addVocabForm(obj, user));
     }
   });
 };
