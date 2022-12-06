@@ -1,34 +1,66 @@
 {
     "-NI5LIMbi1HAW0bpMtVd":{
-        "firebasekey":"-NI5LIMbi1HAW0bpMtVd",
+        "firebaseKey":"-NI5LIMbi1HAW0bpMtVd",
         "title":"Interpolate",
         "definition":"insert (something of a different nature) into something else.",
-        "category":"language",
+        "category":"JavaScript",
         "time_submitted":"6/10/2022",
         "uid":""
     },
     "-NI5LIMe-xUysnI8ZYIO":{
-        "firebasekey":"-NI5LIMe-xUysnI8ZYIO",
-        "title":"id",
-        "definition":null,
-        "category":"language",
+        "firebaseKey":"-NI5LIMe-xUysnI8ZYIO",
+        "title":"Array",
+        "definition":"Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value.",
+        "category":"JavaScript",
         "time_submitted":"2/8/2022",
         "uid":""
     },
     "-NI5LIMicKZkfOtJx1YQ":{
-        "firebasekey":"-NI5LIMicKZkfOtJx1YQ",
-        "title":"vestibulum",
-        "definition":null,
-        "category":"language",
+        "firebaseKey":"-NI5LIMicKZkfOtJx1YQ",
+        "title":"Dot Notation",
+        "definition":"A property is accessed by giving the host object's name, followed by a period (or dot), followed by the property name.",
+        "category":"CSS",
         "time_submitted":"9/20/2022",
         "uid":""
     },
     "-NI5LIMlaXh_9bZBWdTm":{
-        "firebasekey":"-NI5LIMlaXh_9bZBWdTm",
-        "title":"eu",
-        "definition":null,
-        "category":"language",
+        "firebaseKey":"-NI5LIMlaXh_9bZBWdTm",
+        "title":"Element",
+        "definition":"",
+        "category":"HTML",
         "time_submitted":"6/28/2022",
+        "uid":""
+    },
+    "-NI5LIMo95XVRSm7eeDL":{
+        "firebaseKey":"-NI5LIMo95XVRSm7eeDL",
+        "title":"React",
+        "definition":"React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
+        "category":"Tech",
+        "time_submitted":"9/27/2022",
+        "uid":"null"
+    },
+    "-NI5LIMrbVvexk6hgC5s":{
+        "firebaseKey":"-NI5LIMrbVvexk6hgC5s",
+        "title":"Google",
+        "definition":"Search engine that finds any and everything.",
+        "category":"Tech",
+        "time_submitted":"8/6/2022",
+        "uid":""
+    },
+    "-NI5LIMvJgY2XDesM0pS":{
+        "firebaseKey":"-NI5LIMvJgY2XDesM0pS",
+        "title":"GitHub",
+        "definition":"",
+        "category":"Tech",
+        "time_submitted":"1/2/2022",
+        "uid":""
+    },
+    "-NI5LIMyMznEHeS8oHUz":{
+        "firebaseKey":"-NI5LIMyMznEHeS8oHUz",
+        "title":"Postman",
+        "definition":"",
+        "category":"Tech",
+        "time_submitted":"3/21/2022",
         "uid":""
     }
 }

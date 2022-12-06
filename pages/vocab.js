@@ -9,21 +9,20 @@ const emptyVocab = () => {
 const showVocab = (array) => {
   clearDom();
 
-  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-word-btn">Add a Word</button>';
+  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-vocab-btn">Add a Word</button>';
   renderToDOM('#add-button', btnString);
 
   let domString = '';
   array.forEach((item) => {
     domString += `
-      <div class="card">
-        <img class="card-img-top" src=${item.image} alt=${item.title} style="height: 400px;">
-        <div class="card-body" style="height: 180px;">
-          <h5 class="card-title">${item.title}</h5>
-            <p class="card-text bold">${item.sale ? `<span class="badge badge-info sale-badge"><i class="fa fa-bell" aria-hidden="true"></i> Sale</span> $${item.price}` : `$${item.price}`}</p>
+      <div id="view" class="card">
+        <div class="card-body" style="height: 250px;">
+          <h5 class="card-title bold">${item.title}</h5>
+          <h5 class="card-title">${item.category}</h5>
+            <p class="card-text">${item.definition}</p>
             <hr>
-            <i class="btn btn-success fas fa-eye" id="view-book-btn--${item.firebaseKey}"></i>
-            <i id="edit-book-btn--${item.firebaseKey}" class="fas fa-edit btn btn-info"></i>
-            <i id="delete-book-btn--${item.firebaseKey}" class="btn btn-danger fas fa-trash-alt"></i>
+            <a href="#" id="edit-vocab-btn--${item.firebaseKey}" class="card-link">Edit</a>
+            <a href="#" id="delete-vocab-btn--${item.firebaseKey}" class="card-link">Delete</a>
         </div>
       </div>`;
   });
